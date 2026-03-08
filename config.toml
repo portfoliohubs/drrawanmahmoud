@@ -1,0 +1,393 @@
+baseURL = "https://portfoliohubs.github.io/drrawanmahmoud/"
+languageCode = "en-us"
+title = "Dr. Rawan Mahmoud"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Rawan Mahmoud"
+    tagline = "General dentist"
+    graduation = "Graduated 2024 - Misr University for science and technology"
+    profile_image = "https://github.com/user-attachments/assets/b9c66a94-55d2-4fbd-9500-e7acdc01a9d3"
+    profile_image_alt = "Profile photo of Dr. Rawan Mahmoud"
+    
+    [params.hero.current_position]
+      role = "General dentist"
+      clinic = "Misr University for science and technology"
+
+  [params.seo]
+    description = "دكتورة روان حسن جامعة مصر"
+    doctor_name_en = "Dr. Rawan Mahmoud"
+    doctor_name_ar = "روان محمود"
+    site_name = "Dr. Rawan Mahmoud"
+    og_image = "https://github.com/user-attachments/assets/d69a5f83-2a58-4a35-b8f6-b031f8b71ccf"
+    favicon_image = "https://github.com/user-attachments/assets/d69a5f83-2a58-4a35-b8f6-b031f8b71ccf"
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Rawan Mahmoud",
+      "Misr University for science and technology",
+      "DENTIST IN EGYPT",
+      "DENTAL CLINIC IN EGYPT",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. روان محمود",
+      "جامعة مصر للعلوم والتكنولوجيا",
+      "عيادة في مصر",
+      "دكتور روان محمود",
+      "عيادة روان محمود",
+      "عيادة اسنان",
+      "روان محمود اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Restorative dentistry (fillings, composites)",
+      "Pediatric dentistry (pulp therapy-extractions)",
+      "Extractions (simple and surgical)",
+      "Prosthodontics (crowns, bridges, dentures)",
+      "Periodontal therapy (scaling, polishing)",
+      "Radiographic interpretation",
+      "Infection control & sterilization protocols",
+      "Diagnosis skills",
+      "Patient management",
+      "Cosmetic dentistry",
+      "Periodontal treatment",
+      "Medical records oversight"
+    ]
+    
+    digital = [
+      "Data entry, reporting, and document control",
+      "Microsoft Office",
+      "ICDL certified"
+    ]
+    
+    soft = [
+      "Strong communication skills",
+      "Multitasking capacity",
+      "Problem-solving & critical thinking",
+      "Collaboration and teamwork in multidisciplinary settings",
+      "Ability to manage confidential and sensitive information",
+      "Self-motivation and initiative",
+      "Leadership qualities"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Misr University for science and technology"
+    graduation_year = "2024"
+    
+    [params.education.master]
+      obtained = false
+      
+    [params.education.phd]
+      obtained = false
+    
+    [[params.education.timeline]]
+      year = "2019"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اندو"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c7c04ea8-3aeb-4a0a-92cd-d5ce6ea54b69"
+      alt = "Endodontic ttt. Lower molar"
+      description = "Endodontic ttt. Lower molar"
+      alt_ar = "حشو عصب لضرس سفلي"
+      description_ar = "حشو عصب لضرس سفلي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e12bcfe0-a359-4bed-87ec-e7e648594aa1"
+      alt = "Endo tt. For lower molar"
+      description = "Endo tt. For lower molar"
+      alt_ar = "حشو عصب لضرس سفلي"
+      description_ar = "حشو عصب لضرس سفلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "اوبرتف"
+    category_ar = "اوبرتف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6f9dc166-f217-444f-b259-33fc0c8135c2"
+      alt = "Class IV composite filling"
+      description = "Class IV composite filling"
+      alt_ar = "حشو تجميلي لسن امامي"
+      description_ar = "حشو تجميلي لسن امامي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/2b8e6e60-74b8-4f24-92cb-817e2802624c"
+      alt = "Diastema closure - direct composite"
+      description = "Diastema closure - direct composite"
+      alt_ar = "اغلاق مسافة بين الاسنان بالكومبوزيت المباشر"
+      description_ar = "اغلاق مسافة بين الاسنان بالكومبوزيت المباشر"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/73334ccf-c063-4cf5-a261-a6e292698a6e"
+      alt = "Composite restoration for lower molars"
+      description = "Composite restoration for lower molars"
+      alt_ar = "حشو كومبوزيت لضرسين مجاورين"
+      description_ar = "حشو كومبوزيت لضرسين مجاورين"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed prosthesis"
+    category_ar = "تركيبات ثابتة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ae45f7f9-a336-47a9-ac15-a255eb247377"
+      alt = "Replacement of a missing tooth by a Fixed zirconium bridge"
+      description = "Replacement of a missing tooth by a Fixed zirconium bridge"
+      alt_ar = "تعويض سن مفقود بجسر ثابت من الزيركونيا"
+      description_ar = "تعويض سن مفقود بجسر ثابت من الزيركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "بيدو"
+    category_ar = "بيدو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/a75f11f7-1de8-499c-add1-074d242c1640"
+      alt = "Pulpotomy for lower D & s.s crown"
+      description = "Pulpotomy for lower D & s.s crown"
+      alt_ar = "علاج عصب لسن لبني- مع طربوش معدني"
+      description_ar = "علاج عصب لسن لبني- مع طربوش معدني"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/81155290-6cb8-4244-9b47-39e5a368b3f3"
+      alt = "Space maintainer after extraction of a deciduous tooth"
+      description = "Space maintainer after extraction of a deciduous tooth"
+      alt_ar = "حافظ مسافة بعد خلع ضرس لبني"
+      description_ar = "حافظ مسافة بعد خلع ضرس لبني"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f3fd18f4-a451-4604-bb41-427e913b48cf"
+      alt = "Class IV composite restoration- incipient caries"
+      description = "Class IV composite restoration- incipient caries"
+      alt_ar = "علاج تحفظي وتجميلي لتسوس مبدئي"
+      description_ar = "علاج تحفظي وتجميلي لتسوس مبدئي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d7ca1b35-6a99-40f0-a04a-092fb023bf3a"
+      alt = "Class I composite restoration for a newly erupted permanent molar"
+      description = "Class I composite restoration for a newly erupted permanent molar"
+      alt_ar = "حشو تجميلي لسن دائم"
+      description_ar = "حشو تجميلي لسن دائم"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Perio"
+    category_ar = "Perio"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/7afb62a0-56cb-4f90-b98a-1f55eab7819c"
+      alt = "ttt. For grade II mobility -splinting for lower anterior teeth"
+      description = "ttt. For grade II mobility -splinting for lower anterior teeth"
+      alt_ar = "تثبيت للأسنان الامامية السفلية"
+      description_ar = "تثبيت للأسنان الامامية السفلية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/2592471b-b6e6-4b97-a0a1-16f923f8ad75"
+      alt = "Scaling & polishing"
+      description = "Scaling & polishing"
+      alt_ar = "تنظيف للجير وتلميع"
+      description_ar = "تنظيف للجير وتلميع"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201004369365"
+    whatsapp = "+201004369365"
+    email = "rawan.hasan408@gmail.com"
+    instagram = ""
+    facebook = ""
+    linkedin = "https://www.linkedin.com/in/rawan-hasan-5aa043337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    
+    [params.contact.location]
+      enabled = true
+      address = "جامعه مصر للعلوم والتكنولوجيا عيادات الاسنان"
+      latitude = "30.642902685674002"
+      longitude = "31.32933812913433"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "روان محمود"
+    tagline = "طبيبة أسنان"
+    graduation = "تخرج 2024 - جامعة مصر للعلوم والتكنولوجيا"
+    profile_image_alt = "صورة الملف الشخصي لروان محمود"
+    
+    [params.ar.hero.current_position]
+      role = "طبيبة أسنان"
+      clinic = "جامعة مصر للعلوم والتكنولوجيا"
+  
+[params.ar.skills]
+    clinical = [
+      "طب الأسنان التحفظي (الحشوات والتركيبات التجميلية – الكومبوزيت)",
+      "طب أسنان الأطفال (علاج لب الأسنان – الخلع)",
+      "خلع الأسنان (خلع بسيط وخلع جراحي)",
+      "التعويضات السنية (التيجان، الجسور، أطقم الأسنان)",
+      "علاج أمراض اللثة (إزالة الجير وتلميع الأسنان)",
+      "تفسير الأشعة السنية",
+      "مكافحة العدوى وتطبيق بروتوكولات التعقيم",
+      "مهارات التشخيص",
+      "إدارة والتعامل مع المرضى",
+      "طب الأسنان التجميلي",
+      "علاج أمراض اللثة",
+      "الإشراف على السجلات الطبية"
+    ]
+    
+    digital = [
+      "ادخال البيانات والتعامل مع الملفات",
+      "اتقان برامج microsoft office",
+      "شهادة ICDL"
+    ]
+    
+    soft = [
+      "مهارات تواصل قوية",
+      "القدرة على إنجاز مهام متعددة بكفاءة",
+      "مهارات حل المشكلات والتفكير النقدي",
+      "القدرة على التعاون والعمل ضمن فريق متعدد التخصصات",
+      "القدرة على التعامل مع المعلومات السرية والحساسة",
+      "مهارات قيادية"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة مصر للعلوم والتكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه"
+    
+    [[params.ar.education.timeline]]
+      event = "2019 الدخول الى الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2024 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "جامعه مصر للعلوم والتكنولوجيا عيادات الاسنان"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
