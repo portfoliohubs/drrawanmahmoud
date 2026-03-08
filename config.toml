@@ -336,10 +336,10 @@ defaultContentLanguage = "en"
       title = "دكتوراه"
     
     [[params.ar.education.timeline]]
-      event = "2019 الدخول الى الكليه"
+      event = "الدخول الى الكليه"
     
     [[params.ar.education.timeline]]
-      event = "2024 التخرج من الكليه"  
+      event = " التخرج من الكليه"  
 
   [params.ar.contact.location]
     address = "جامعه مصر للعلوم والتكنولوجيا عيادات الاسنان"
