@@ -160,7 +160,7 @@ defaultContentLanguage = "en"
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
-    category = "اندو"
+    category = "Endodontics"
     category_ar = "اندو"
     
     [[params.clinical_cases.cases]]
@@ -179,7 +179,7 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "اوبرتف"
+    category = "Operative"
     category_ar = "اوبرتف"
     
     [[params.clinical_cases.cases]]
@@ -217,7 +217,7 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "بيدو"
+    category = "pediatric"
     category_ar = "بيدو"
     
     [[params.clinical_cases.cases]]
