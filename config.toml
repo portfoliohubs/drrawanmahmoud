@@ -328,7 +328,7 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "روان محمود"
+    name = "د. روان محمود"
     tagline = "طبيبة أسنان"
     graduation = "تخرج 2024 - جامعة مصر للعلوم والتكنولوجيا"
     profile_image_alt = "صورة الملف الشخصي لروان محمود"
