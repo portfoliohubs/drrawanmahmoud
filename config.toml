@@ -17,9 +17,9 @@ defaultContentLanguage = "en"
       clinic = "Misr University for science and technology"
 
   [params.seo]
-    description = "دكتورة روان حسن جامعة مصر"
+    description = "دكتورة روان محمود حسن جامعة مصر"
     doctor_name_en = "Dr. Rawan Mahmoud"
-    doctor_name_ar = "روان محمود"
+    doctor_name_ar = " روان محمود حسن"
     site_name = "Dr. Rawan Mahmoud"
     og_image = "https://github.com/user-attachments/assets/d69a5f83-2a58-4a35-b8f6-b031f8b71ccf"
     favicon_image = "https://github.com/user-attachments/assets/d69a5f83-2a58-4a35-b8f6-b031f8b71ccf"
@@ -89,6 +89,7 @@ defaultContentLanguage = "en"
       "دكتور أسنان شاطر الكويت",
       "أفضل طبيب أسنان تجميلي الكويت",
       "أفضل دكتورة اسنان في الكويت",
+      "دكتورة روان محمود اسنان", 
       "دكتورة اسنان شاطرة في الكويت"
     ]
 
